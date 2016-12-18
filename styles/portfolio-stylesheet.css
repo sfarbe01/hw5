@@ -1,0 +1,402 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+.logo{
+  height:50px;
+  width:90px;
+  line-height: 50px;
+  
+}
+
+.json{
+  height:200px;
+  width:100px;
+}
+
+.col-md-9 col-md-push-6{
+  align-items: center;
+}
+
+.col-md-3 col-md-pull-6{
+  align-items: center;
+}
+
+.col-sm-4 col-centered text-center{
+  color:aqua;
+}
+
+.row{
+  width: 95%;
+  padding-left: 2em;
+}
+
+figure{
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+img{
+  max-width:100%;
+  border-radius: 50px;
+}
+
+iframe{
+  max-width: 90vw;
+}
+
+body{
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+overflow-x: hidden;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+color:white;
+}
+
+figcaption{
+  padding-left: 1em;
+  color:#e9eee7;
+}
+
+.emails{
+  min-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 3em;
+    background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
+    ),
+    url()
+}
+
+.blogs{
+  min-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  margin-bottom: -2em;
+ background-image:
+  linear-gradient(45deg,
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
+    ),
+    url()
+}
+img{
+  height:300px;
+  width:300px;
+}
+.infographics{
+  min-width: 100%;
+  padding-bottom: 1.5em;
+  padding-top:1em;
+  margin-top: 2em;
+     background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
+    ),
+    url()
+}
+
+.eBooks{
+  min-width: 100%;
+  padding-bottom: 3em;
+  margin-bottom: -2em;
+  padding-top: 1em;
+  background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
+    ),
+    url()
+}
+
+h3{
+  color:#e9eee7;
+   padding-right: 3em;
+  margin-right: 2em;
+}
+
+h4{
+  color:#bababa;
+  padding-right: 3em;
+  margin-right: 2em;
+}
+
+
+.resume{
+  min-width: 100%;
+  padding-top:1em;
+  padding-bottom: 2em;
+  margin-top: 2em;
+ background-image:
+  linear-gradient(45deg,
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
+    ),
+    url()
+}
+
+.videos{
+  min-width: 100%;
+  padding-top:1em;
+  padding-bottom: 1em;
+  background-image:
+  linear-gradient(45deg,
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
+    ),
+    url()
+
+}
+
+
+.intro{
+ background-image:
+  linear-gradient(45deg,
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
+    ),
+    url();
+  padding-bottom: 1em;
+  margin-top: 10em;
+  color:white;
+}
+
+p{
+  color:white;
+}
+.contacticons{
+  display:flex;
+  justify-content: space-between;
+}
+
+div{
+  display:block;
+}
+
+a{
+  color:teal;
+}
+
+.contact{
+  color:#00fbff;
+}
+
+.container{
+  min-width: 110%;
+  margin-left: -1.5em;
+}
+col-sm-2 col-centered text-center{
+  color:teal;
+}
+
+col-sm-6 col-centered text-center{
+  padding-right: 2em;
+  margin-right: 2em;
+}
+
+.col-sm-4 col-centered text-center{
+  color:teal;
+}
+h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.navbar navbar-default navbar-static-bottom{
+  background-color: aqua;
+}
+
+/*header nav*/
+
+.navbar navbar-default navbar-fixed-top{
+  padding-bottom: 1.5em;
+  display:block;
+  min-width: 100%;
+  background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.7), 
+      rgba(102, 196, 249, 0.7)
+    ),
+    url()
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+.navbar{
+  background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.7), 
+      rgba(102, 196, 249, 0.7)
+    ),
+    url()
+  min-width: 100%;
+  display: block;
+}
+
+/*
+background-image:
+       rgba(0, 0, 0, 0.5),
+    url();
+*/
+
+.col-sm-12{
+  padding-top: 10px;
+  text-align: center;
+  color: rgba(41, 188, 158, 0.8)
+}
+
+
+.site{
+  padding-bottom: 20px;
+  height:15px;
+}
+
+h1{
+  padding-bottom: 40px;
+}
+
+
+.navheader ul {
+  background-color: rgba(41, 188, 158, 0.8);
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+  display: inline-block;
+  min-width:100%;
+  position: absolute;
+  top:0;
+  height: 60px;
+  left:0;
+  float:clear;
+}
+
+i{
+  color:white;
+}
+
+.navheader li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+  line-height: 50px;
+  height: 60px;
+  display: inline-block;
+   vertical-align: middle;
+  width: 15%;
+}
+ 
+.navheader a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0;
+}
+ 
+
+ 
+.navheader a.active {
+  color: #fff;
+  cursor: default;
+}
+
+/* Footer Nav */
+
+.navfooter ul {
+  color:white;
+  background-color: rgba(200, 200, 200, 0.46);
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0;
+  display: inline-block;
+  min-width:100%;
+  position: absolute;
+  top:0;
+  height: 40px;
+  left:0;
+  float:left;
+ 
+}
+.navfooter li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+  line-height: 50px;
+  height: 60px;
+  display: inline-block;
+  padding-left: 20px;
+   vertical-align: middle;
+  
+}
+
+p{
+  margin-left: 3em;
+  margin-right: 5em;
+  text-decoration: none;
+}
+ 
+.navfooter a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0;
+}
+ 
+.navfooter a:hover {
+ color:rgba(128, 18, 155, 0.83) ;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+   transition: 2em;
+}
+ 
+.navfooter a.active {
+  color: #fff;
+  cursor: default;
+}
+
+.footer{
+  clear:both;
+  position:relative;
+  z-index: 200;
+  top:9.2rem;
+  margin-top: -3rem;
+}
+
+
+
+
+#copyright li{
+  font-size: 1em;
+}
